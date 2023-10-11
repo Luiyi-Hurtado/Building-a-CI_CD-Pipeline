@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-az webapp up -n flaskml --location southcentralus --sku B1
+az webapp up -n flaskml --location EastUS --sku B1
