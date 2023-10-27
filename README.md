@@ -1,51 +1,74 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This README provides a comprehensive guide on setting up a web application and creating an Azure Pipeline for streamlined deployment and continuous integration. This project is designed to help developers and DevOps engineers establish an efficient workflow for web application development and deployment using Azure DevOps services.
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [Trello board for the project](https://trello.com/b/dyM9anQv/building-ci-cd-pipeline)
+* Spreadsheet that includes:
+  * The [original](https://docs.google.com/spreadsheets/d/16ja-pMVaXWIozAIDHGYrRSwYyVIbuzBHSg1zjiCkXZE/edit?usp=sharing) project plan
+  * The [final](https://docs.google.com/spreadsheets/d/1tNBkEXDg3wKSsdqceFdp_zETSuWycQUvltIu6fD3_jE/edit?usp=sharing) project plan
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+Architectural Diagram (Shows how key parts of the system work)>
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+### Project running on Azure App Service
 
-* Project running on Azure App Service
+* Deploy your web application to Azure App Service using Azure CLI, Azure DevOps, or any other deployment method of your choice.\
+![Project running on Azure App Service](./img/create%20webapp.png)
 
-* Project cloned into Azure Cloud Shell
+### Project cloned into Azure Cloud Shell
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+#### 1. Access Azure Cloud Shell
 
-* Output of a test run
+* Open the Azure Portal (<https://portal.azure.com>).
+* Click on the Cloud Shell icon in the upper-right corner.
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+#### 2. Clone Project
 
-* Running Azure App Service from Azure Pipelines automatic deployment
+* Create the clone
+![Project cloned into Azure Cloud Shell](./img/git_clone_webapp.png)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
+### Passing Tests After Running make all Command
+
+#### 1. Navigate to Project Directory
+
+* Change to the directory where your project is located:
 
 ```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
+cd <project_directory>
 ```
 
-* Output of streamed log files from deployed application
+#### 2. Run Tests
 
-> 
+* Execute the make all command to run tests and build the project.\
+![make all](./img/)
 
+### Output of a test run
+
+* The output of the test run will be displayed in your terminal, indicating whether the tests passed or failed. Review the output to ensure all tests pass.\
+![test all](./img/)
+
+### Successful deploy of the project in Azure Pipelines
+
+* Your deployment to Azure Pipelines should already be configured in your project. If not, follow the instructions in your project's documentation to set up the deployment pipeline.
+![pipeline](./img/pipeline-succes.png)
+
+### Running Azure App Service from Azure Pipelines automatic deployment
+
+* After your deployment pipeline is set up, the Azure App Service will automatically run the latest version of your application when a successful build is completed.\
+![autopipeline](./img/)
+
+### Successful prediction from deployed flask app in Azure Cloud Shell
+
+* After your deployment pipeline is set up, the Azure App Service will automatically run the latest version of your application when a successful build is completed.\
+![Use this file as a template for the deployed prediction](./img/)
+
+### Output of streamed log files from deployed application
+>
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
-
-## Demo 
+## Demo
 
 <TODO: Add link Screencast on YouTube>
-
-
