@@ -59,16 +59,16 @@ cd <project_directory>
 ### Running Azure App Service from Azure Pipelines automatic deployment
 
 * After your deployment pipeline is set up, the Azure App Service will automatically run the latest version of your application when a successful build is completed.\
-![autopipeline](./img/)
+![autopipeline](./img/auto-deploy.png)
 
 ### Successful prediction from deployed flask app in Azure Cloud Shell
 
 * After your deployment pipeline is set up, the Azure App Service will automatically run the latest version of your application when a successful build is completed.\
 ![Use this file as a template for the deployed prediction](./img/prediction.png)
-
-### Output of streamed log files from deployed application
 >
 ## Enhancements
+
+Please consider upgrading the versions of the projects to ensure you're using the latest enhancements and improvements. Additionally, we recommend upgrading your courses to stay up-to-date with the latest content and knowledge.
 
 ## Demo
 
