@@ -17,6 +17,7 @@ Architectural Diagram (Shows how key parts of the system work)>
 
 * Deploy your web application to Azure App Service using Azure CLI, Azure DevOps, or any other deployment method of your choice.\
 ![Project running on Azure App Service](./img/create%20webapp.png)
+![Project running on Azure App Service](./img/Skerlar.png)
 
 ### Project cloned into Azure Cloud Shell
 
@@ -43,12 +44,12 @@ cd <project_directory>
 #### 2. Run Tests
 
 * Execute the make all command to run tests and build the project.\
-![make all](./img/)
+![make all](./img/make-all.jpg)
 
 ### Output of a test run
 
 * The output of the test run will be displayed in your terminal, indicating whether the tests passed or failed. Review the output to ensure all tests pass.\
-![test all](./img/)
+![test all](./img/make-test.png)
 
 ### Successful deploy of the project in Azure Pipelines
 
@@ -63,7 +64,7 @@ cd <project_directory>
 ### Successful prediction from deployed flask app in Azure Cloud Shell
 
 * After your deployment pipeline is set up, the Azure App Service will automatically run the latest version of your application when a successful build is completed.\
-![Use this file as a template for the deployed prediction](./img/)
+![Use this file as a template for the deployed prediction](./img/prediction.png)
 
 ### Output of streamed log files from deployed application
 >
