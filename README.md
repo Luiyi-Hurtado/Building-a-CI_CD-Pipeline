@@ -70,4 +70,4 @@ Please consider upgrading the versions of the projects to ensure you're using th
 
 ## Demo
 
-[![Watch the video](./img/diagram.jpg)](https://www.youtube.com/watch?v=_qRQd1HCvrs)
+[![Watch the video](./img/diagram.jpg)](https://youtu.be/_qRQd1HCvrs)
