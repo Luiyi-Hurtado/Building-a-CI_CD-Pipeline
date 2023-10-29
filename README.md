@@ -11,8 +11,6 @@ This README provides a comprehensive guide on setting up a web application and c
 
 ## Instructions
 
-Architectural Diagram (Shows how key parts of the system work)>
-
 ### Project running on Azure App Service
 
 * Deploy your web application to Azure App Service using Azure CLI, Azure DevOps, or any other deployment method of your choice.\
@@ -72,4 +70,4 @@ Please consider upgrading the versions of the projects to ensure you're using th
 
 ## Demo
 
-<TODO: Add link Screencast on YouTube>
+[![Watch the video](./img/diagram.jpg)](https://www.youtube.com/watch?v=_qRQd1HCvrs)
