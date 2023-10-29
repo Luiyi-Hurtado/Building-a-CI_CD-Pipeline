@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-az webapp up -n mywebapp23222 -l westeurope --resource-group Azuredevops
+az webapp up -n mywebapp011320 -l westeurope --resource-group Azuredevops
