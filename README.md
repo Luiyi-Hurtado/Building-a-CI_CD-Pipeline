@@ -61,9 +61,12 @@ cd <project_directory>
 
 ### Successful prediction from deployed flask app in Azure Cloud Shell
 
-* After your deployment pipeline is set up, the Azure App Service will automatically run the latest version of your application when a successful build is completed.\
+* After your deployment pipeline is set up, the Azure App Service will automatically run the latest version of your application when a successful build is completed.
+
+* **make prediction**
 ![Use this file as a template for the deployed prediction](./img/prediction.png)
-* Using the locust file
+
+* **Using the locust file**
 ![locustfile](./img/locust_img.png)
 >
 ## Enhancements
