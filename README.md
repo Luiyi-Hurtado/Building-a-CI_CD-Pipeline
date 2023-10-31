@@ -63,6 +63,8 @@ cd <project_directory>
 
 * After your deployment pipeline is set up, the Azure App Service will automatically run the latest version of your application when a successful build is completed.\
 ![Use this file as a template for the deployed prediction](./img/prediction.png)
+* Using the locust file
+![locustfile](./img/locust_img.png)
 >
 ## Enhancements
 
@@ -71,3 +73,5 @@ Please consider upgrading the versions of the projects to ensure you're using th
 ## Demo
 
 [![Watch the video](./img/diagram.jpg)](https://youtu.be/_qRQd1HCvrs)
+
+[![Python application test with Github Actions](https://github.com/Luiyi-Hurtado/Building-a-CI_CD-Pipeline/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Luiyi-Hurtado/Building-a-CI_CD-Pipeline/actions/workflows/pythonapp.yml)
