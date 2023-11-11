@@ -16,6 +16,7 @@ This README provides a comprehensive guide on setting up a web application and c
 * Deploy your web application to Azure App Service using Azure CLI, Azure DevOps, or any other deployment method of your choice.\
 ![Project running on Azure App Service](./img/create%20webapp.png)
 ![Project running on Azure App Service](./img/Skerlar.png)
+![Project running on Azure App Service](./img/log-tail.png)
 
 ### Project cloned into Azure Cloud Shell
 
