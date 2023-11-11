@@ -49,6 +49,7 @@ cd <project_directory>
 
 * The output of the test run will be displayed in your terminal, indicating whether the tests passed or failed. Review the output to ensure all tests pass.\
 ![test all](./img/make-test.png)
+![test action](/img/test-actions.png)
 
 ### Successful deploy of the project in Azure Pipelines
 
