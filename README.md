@@ -7,7 +7,7 @@ This README provides a comprehensive guide on setting up a web application and c
 * [Trello board for the project](https://trello.com/b/dyM9anQv/building-ci-cd-pipeline)
 * Spreadsheet that includes:
   * The [original](https://docs.google.com/spreadsheets/d/16ja-pMVaXWIozAIDHGYrRSwYyVIbuzBHSg1zjiCkXZE/edit?usp=sharing) project plan
-  * The [final](https://docs.google.com/spreadsheets/d/1tNBkEXDg3wKSsdqceFdp_zETSuWycQUvltIu6fD3_jE/edit?usp=sharing) project plan
+  * The [final](https://docs.google.com/spreadsheets/d/1OLn1tLNLcb5XCAtILgUQ6Zw8d9411eiD/edit?usp=sharing&ouid=103681550852958796827&rtpof=true&sd=true) project plan
 
 ## Instructions
 
