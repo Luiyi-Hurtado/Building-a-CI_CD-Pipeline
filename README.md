@@ -77,6 +77,6 @@ Please consider upgrading the versions of the projects to ensure you're using th
 
 ## Demo
 
-[![Watch the video](./img/diagram.jpg)](https://youtu.be/9hJPGa2GdpE)
+[![Watch the video](./img/diagram.jpg)](https://youtu.be/VLcFEvO9saI)
 
 [![Python application test with Github Actions](https://github.com/Luiyi-Hurtado/Building-a-CI_CD-Pipeline/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Luiyi-Hurtado/Building-a-CI_CD-Pipeline/actions/workflows/pythonapp.yml)
